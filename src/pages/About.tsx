@@ -2,9 +2,9 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className="flex flex-col items-center px-40 py-24">
+    <div className="flex flex-col items-center px-8 lg:px-32 xl:px-40 py-24">
       <h1 className="uppercase text-3xl text-[#421C13] font-bold">about us</h1>
-      <div className="border-solid border-black rounded-md shadow-2xl h-full w-[90%] px-24 py-24 mt-12">
+      <div className="border-solid border-black rounded-md shadow-2xl h-full w-[98%] xl:w-[90%] px-16 xl:px-24 py-24 mt-12">
         <p className="text-[#3A3A3A] tracking-wider">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
