@@ -1,5 +1,5 @@
 import React from 'react'
-import { menuImages } from './helpers/MenuImages'
+import { menuImages } from './helpers/menuImages'
 
 const Menu = () => {
   return (
@@ -10,7 +10,7 @@ const Menu = () => {
         dish is crafted using the freshest ingredients and traditional
         techniques, offering a taste of Asia with every bite.
       </p>
-      <div className="my-8 h-full w-[98%] xl:w-[90%]">
+      <div className="my-16 h-full w-[98%] xl:w-[90%]">
         <div className="flex justify-evenly mt-16">
           <div>
             <img
