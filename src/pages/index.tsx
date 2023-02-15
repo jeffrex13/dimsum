@@ -6,6 +6,7 @@ import Home from './Home'
 import Navbar from './components/Navbar'
 import About from './About'
 import Menu from './Menu'
+import Footer from './components/Footer'
 
 const poppins = Poppins({
   weight: ['400', '500', '600', '700', '800', '900'],
@@ -34,7 +35,9 @@ export default function index() {
           <Element name="menu">
             <Menu />
           </Element>
-          <Element name="contact"></Element>
+          <Element name="contact">
+            <Footer />
+          </Element>
         </div>
       </main>
     </>
