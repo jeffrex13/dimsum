@@ -1,8 +1,11 @@
 import Head from 'next/head'
 import { Poppins } from '@next/font/google'
+import { Element } from 'react-scroll'
+
 import Home from './Home'
 import Navbar from './components/Navbar'
 import About from './About'
+import Menu from './Menu'
 
 const poppins = Poppins({
   weight: ['400', '500', '600', '700', '800', '900'],
@@ -22,8 +25,16 @@ export default function index() {
       <main className={`${poppins.variable} font-poppins`}>
         <div>
           <Navbar />
-          <Home />
-          <About />
+          <Element name="home">
+            <Home />
+          </Element>
+          <Element name="about">
+            <About />
+          </Element>
+          <Element name="menu">
+            <Menu />
+          </Element>
+          <Element name="contact"></Element>
         </div>
       </main>
     </>

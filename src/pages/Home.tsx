@@ -3,10 +3,12 @@ import DimsumImg from './assets/pictures/dimsum-1.png'
 
 const Home = () => {
   return (
-    <div className="bg-[#FFB21B] pl-40">
+    <div className="bg-[#FFB21B] pl-16 lg:pl-32 xl:pl-40">
       <div className="flex items-center justify-between text-[#421C13] py-32">
         <div className="flex flex-col gap-6">
-          <p className="text-5xl font-bold">Discover the art of Dim Sum</p>
+          <p className="text-4xl xl:text-5xl font-bold">
+            Discover the art of Dim Sum
+          </p>
           <div className="flex flex-col gap-2 text-lg">
             <p>Savor the flavors of dim sum where</p>
             <p>every bite is a taste of tradition</p>
@@ -22,7 +24,7 @@ const Home = () => {
           </div>
         </div>
         <img
-          className="object-cover object-left h-[515px] w-[450px]"
+          className="object-cover object-left h-[315px] w-[250px] xl:h-[515px] xl:w-[450px]"
           src={DimsumImg.src}
           alt=""
         />
