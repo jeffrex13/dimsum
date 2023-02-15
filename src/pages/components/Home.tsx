@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import DimsumImg from './assets/pictures/dimsum-1.png'
+import DimsumImg from '../assets/pictures/dimsum-1.png'
 
 const Home = () => {
   return (

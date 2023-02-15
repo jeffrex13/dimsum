@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import { menuImages } from './helpers/menuImages'
+import { menuImages } from '../../helpers/menuImages'
 
 const Menu = () => {
   return (

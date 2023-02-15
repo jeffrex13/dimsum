@@ -2,11 +2,11 @@ import Head from 'next/head'
 import { Poppins } from '@next/font/google'
 import { Element } from 'react-scroll'
 
-import Home from './Home'
 import Navbar from './components/Navbar'
-import About from './About'
-import Menu from './Menu'
+import About from './components/About'
 import Footer from './components/Footer'
+import Home from './components/Home'
+import Menu from './components/Menu'
 
 const poppins = Poppins({
   weight: ['400', '500', '600', '700', '800', '900'],
