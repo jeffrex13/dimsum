@@ -16,7 +16,7 @@ const Home = () => {
             <button className="bg-[#421C13] rounded-md shadow-lg text-white px-6 py-4">
               View our Menu
             </button>
-            <button className="border-solid border-[#421C13] rounded-md shadow-lg border-2 px-6 py-4">
+            <button className="border-solid border-[#421C13] border-2 rounded-md shadow-lg px-6 py-4">
               Learn More
             </button>
           </div>
