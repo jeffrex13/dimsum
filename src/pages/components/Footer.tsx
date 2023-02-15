@@ -29,7 +29,7 @@ const Footer = () => {
             Quisque pretium enim ac neque tincidunt, a ullamcorper purus
             rhoncus.
           </p>
-          <p className="mt-28">© Company Name 2023. All rights reserved.</p>
+          <p className="mt-32">© Company Name 2023. All rights reserved.</p>
         </div>
         <div className="w-[35%]">
           <p className="font-medium text-2xl text-[#E5E5E5]">Contact Us</p>

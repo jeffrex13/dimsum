@@ -26,9 +26,7 @@ export default function index() {
       <main className={`${poppins.variable} font-poppins`}>
         <div>
           <Navbar />
-          <Element name="home">
-            <Home />
-          </Element>
+          <Home />
           <Element name="about">
             <About />
           </Element>
