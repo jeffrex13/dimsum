@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 import DimsumImg from './assets/pictures/dimsum-1.png'
 
@@ -23,10 +24,12 @@ const Home = () => {
             </button>
           </div>
         </div>
-        <img
+        <Image
           className="object-cover object-left h-[315px] w-[250px] xl:h-[515px] xl:w-[450px]"
           src={DimsumImg.src}
           alt=""
+          width={250}
+          height={315}
         />
       </div>
     </div>
