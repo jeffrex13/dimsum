@@ -1,6 +1,13 @@
 import Head from 'next/head'
-import { Inter } from '@next/font/google'
+import { Poppins } from '@next/font/google'
 import Home from './Home'
+import Navbar from './components/Navbar'
+
+const poppins = Poppins({
+  weight: ['400', '500', '600', '700', '800', '900'],
+  subsets: ['latin'],
+  variable: '--font-poppins',
+})
 
 export default function index() {
   return (
@@ -11,9 +18,12 @@ export default function index() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div>
-        <Home />
-      </div>
+      <main className={`${poppins.variable} font-poppins`}>
+        <div>
+          <Navbar />
+          <Home />
+        </div>
+      </main>
     </>
   )
 }
