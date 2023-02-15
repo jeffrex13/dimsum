@@ -15,6 +15,7 @@ const Navbar = () => {
             spy={true}
             smooth={true}
             duration={500}
+            className="cursor-pointer"
           >
             Home
           </Link>
@@ -24,6 +25,7 @@ const Navbar = () => {
             spy={true}
             smooth={true}
             duration={500}
+            className="cursor-pointer"
           >
             About Us
           </Link>
@@ -33,6 +35,7 @@ const Navbar = () => {
             spy={true}
             smooth={true}
             duration={500}
+            className="cursor-pointer"
           >
             Menu
           </Link>
@@ -42,6 +45,7 @@ const Navbar = () => {
             spy={true}
             smooth={true}
             duration={500}
+            className="cursor-pointer"
           >
             Contact Us
           </Link>
