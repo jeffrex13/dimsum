@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import { Link } from 'react-scroll'
 import DimsumImg from '../assets/pictures/dimsum-1.png'
 
 const Home = () => {
@@ -16,20 +17,28 @@ const Home = () => {
           </div>
 
           <div className="flex gap-8 pt-9">
-            <button className="bg-[#421C13] rounded-md shadow-lg text-white px-6 py-4">
-              View our Menu
-            </button>
+            <Link
+              activeClass="active"
+              to="menu"
+              spy={true}
+              smooth={true}
+              duration={500}
+              className="cursor-pointer"
+            >
+              <button className="bg-[#421C13] rounded-md shadow-lg text-white px-6 py-4">
+                View our Menu
+              </button>
+            </Link>
+
             <button className="border-solid border-[#421C13] border-2 rounded-md shadow-lg px-6 py-4">
               Learn More
             </button>
           </div>
         </div>
-        <Image
-          className="object-cover object-left h-[315px] w-[250px] xl:h-[515px] xl:w-[450px]"
+        <img
+          className="object-cover object-left h-[315px] w-[250] xl:h-[415px] xl:w-[350px]"
           src={DimsumImg.src}
           alt=""
-          width={250}
-          height={315}
         />
       </div>
     </div>

@@ -12,14 +12,12 @@ const Menu = () => {
         techniques, offering a taste of Asia with every bite.
       </p>
       <div className="my-16 h-full w-[98%] xl:w-[90%]">
-        <div className="flex justify-evenly mt-16">
+        <div className="flex flex-col xl:flex-row items-center xl:justify-evenly mt-16 gap-16 xl:gap-0">
           <div>
-            <Image
+            <img
               className="w-[480px] h-[320px] rounded-2xl"
               src={`${menuImages('shuijiao')?.src}`}
               alt="dimsum"
-              width={480}
-              height={320}
             />
             <div className="mt-4">
               <p className="text-[#421C13] font-bold">Shui Jiao Dumplings</p>
@@ -27,12 +25,10 @@ const Menu = () => {
             </div>
           </div>
           <div>
-            <Image
+            <img
               className="w-[480px] h-[320px] rounded-2xl"
               src={`${menuImages('wonton')?.src}`}
               alt="dimsum"
-              width={480}
-              height={320}
             />
             <div className="mt-4">
               <p className="text-[#421C13] font-bold">Wonton Dumplings</p>
@@ -40,14 +36,12 @@ const Menu = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-evenly mt-16">
+        <div className="flex flex-col xl:flex-row items-center xl:justify-evenly mt-16 gap-16">
           <div>
-            <Image
+            <img
               className="w-[480px] h-[320px] rounded-2xl"
               src={`${menuImages('bao')?.src}`}
               alt="dimsum"
-              width={480}
-              height={320}
             />
             <div className="mt-4">
               <p className="text-[#421C13] font-bold">Bao Dumplings</p>
@@ -55,12 +49,10 @@ const Menu = () => {
             </div>
           </div>
           <div>
-            <Image
+            <img
               className="w-[480px] h-[320px] rounded-2xl"
               src={`${menuImages('jiaozi')?.src}`}
               alt="dimsum"
-              width={480}
-              height={320}
             />
             <div className="mt-4">
               <p className="text-[#421C13] font-bold">Jiaozi</p>
@@ -68,14 +60,12 @@ const Menu = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-evenly mt-16">
+        <div className="flex flex-col xl:flex-row items-center xl:justify-evenly mt-16 gap-16">
           <div>
-            <Image
+            <img
               className="w-[480px] h-[320px] rounded-2xl"
               src={`${menuImages('platter')?.src}`}
               alt="dimsum"
-              width={480}
-              height={320}
             />
             <div className="mt-4">
               <p className="text-[#421C13] font-bold">Dumplings Platter</p>
@@ -83,12 +73,10 @@ const Menu = () => {
             </div>
           </div>
           <div>
-            <Image
+            <img
               className="w-[480px] h-[320px] rounded-2xl"
               src={`${menuImages('springroll')?.src}`}
               alt="dimsum"
-              width={480}
-              height={320}
             />
             <div className="mt-4">
               <p className="text-[#421C13] font-bold">Fried Spring Rolls</p>

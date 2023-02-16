@@ -19,9 +19,9 @@ const Footer = () => {
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',
         }}
-        className="flex justify-between w-full h-[26rem] py-12 px-40 mt-32 text-[#BCBABA]"
+        className="flex flex-col-reverse gap-16 xl:flex-row items-center xl:justify-between w-full h-full xl:h-[26rem] py-12 px-40 mt-32 text-[#BCBABA]"
       >
-        <div className="w-[35%]">
+        <div className="w-full xl:w-[35%]">
           <p className="font-medium text-2xl text-[#E5E5E5]">Sample Company</p>
           <p className="mt-8">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
@@ -31,7 +31,7 @@ const Footer = () => {
           </p>
           <p className="mt-32">© Company Name 2023. All rights reserved.</p>
         </div>
-        <div className="w-[35%]">
+        <div className="w-full xl:w-[35%]">
           <p className="font-medium text-2xl text-[#E5E5E5]">Contact Us</p>
           <div className="flex items-center gap-4 mt-8">
             <AiOutlinePhone className="text-4xl" />
@@ -41,7 +41,7 @@ const Footer = () => {
             <AiOutlineMail className="text-4xl" />
             <p>info@companyname.com</p>
           </div>
-          <div className="flex gap-4 items-center mt-28 text-4xl">
+          <div className="flex gap-4 items-center mt-16 xl:mt-28 text-4xl">
             <AiFillFacebook />
             <AiFillInstagram />
             <AiFillTwitterSquare />
